@@ -6,6 +6,6 @@ This is a library of the some of the major C standard library functions. Along w
 and then adapted overtime.
 
 ### Compiling
-1. Make sure you have a GCC compiler installed (installed by default on all major operating systems
+1. Make sure you have a GCC compiler installed (installed by default on all major operating systems)
    ``gcc -v``
 2. Clone the repository and run the makefile using `make`
