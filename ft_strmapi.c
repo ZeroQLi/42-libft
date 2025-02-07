@@ -6,7 +6,7 @@
 /*   By: mtangalv <mtangalv@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 19:29:46 by mtangalv          #+#    #+#             */
-/*   Updated: 2024/12/27 16:27:31 by mtangalv         ###   ########.fr       */
+/*   Updated: 2025/02/07 19:28:32 by mtangalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,17 +28,4 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	final[i] = '\0';
 	return (final);
-}
-
-#include <stdio.h>
-
-char *printig(unsigned int num, char *test)
-{
-	return ((char *)ft_toupper(test[num]));
-}
-
-int main(void)
-{
-	ft_striteri("hello", &printig);
-	char *hell = "d";
 }
