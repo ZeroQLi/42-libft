@@ -38,6 +38,11 @@ SRC = ft_atoi.c \
 	ft_strlcat.c \
 	ft_strncmp.c \
 	ft_substr.c \
+	ft_printf.c \
+	utils_num.c \
+	utils_word.c \
+	utils_hex.c \
+	get_next_line.c \
 
 BONUS_SRC = ft_lstnew.c \
 	ft_lstadd_front.c \
