@@ -43,8 +43,7 @@ SRC = ft_atoi.c \
 	utils_word.c \
 	utils_hex.c \
 	get_next_line.c \
-
-BONUS_SRC = ft_lstnew.c \
+	ft_lstnew.c \
 	ft_lstadd_front.c \
 	ft_lstsize.c \
 	ft_lstlast.c \
@@ -55,7 +54,6 @@ BONUS_SRC = ft_lstnew.c \
 	ft_lstmap.c \
 
 OFILES = $(SRC:%.c=%.o)
-BONUSOFILES = $(BONUS_SRC:%.c=%.o)
 
 all: $(NAME)
 
@@ -65,15 +63,12 @@ all: $(NAME)
 $(NAME): $(OFILES)
 	ar rcs $(NAME) $(OFILES)
 
-bonus: $(NAME) $(BONUSOFILES)
-	ar rcs $(NAME) $(BONUSOFILES)
-
 clean:
-	rm -f $(OFILES) $(BONUSOFILES)
+	rm -f $(OFILES)
 
 fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
 
-.PHONY:	all clean fclean re bonus
+.PHONY:	all clean fclean re
