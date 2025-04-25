@@ -39,9 +39,12 @@ SRC = ft_atoi.c \
 	ft_strncmp.c \
 	ft_substr.c \
 	ft_printf.c \
+	ft_dprintf.c \
 	utils_num.c \
-	utils_word.c \
 	utils_hex.c \
+	utils_word.c \
+	utils_num_fd.c \
+	utils_hex_fd.c \
 	get_next_line.c \
 	ft_lstnew.c \
 	ft_lstadd_front.c \
