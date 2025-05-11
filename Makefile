@@ -36,6 +36,7 @@ SRC = ft_atoi.c \
 	ft_putendl_fd.c \
 	ft_strchr.c \
 	ft_strlcat.c \
+	ft_strcmp.c \
 	ft_strncmp.c \
 	ft_substr.c \
 	ft_printf.c \
