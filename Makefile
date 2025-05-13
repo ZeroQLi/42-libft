@@ -5,6 +5,7 @@ COMP = cc
 FLAGS = -Wall -Werror -Wextra
 
 SRC = ft_atoi.c \
+	ft_atof.c \
 	ft_isalpha.c \
 	ft_itoa.c \
 	ft_memmove.c \

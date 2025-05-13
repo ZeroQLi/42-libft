@@ -6,7 +6,7 @@
 /*   By: mtangalv <mtangalv@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 18:45:33 by mtangalv          #+#    #+#             */
-/*   Updated: 2025/05/11 15:33:25 by mtangalv         ###   ########.fr       */
+/*   Updated: 2025/05/13 11:30:07 by mtangalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ int		ft_strncmp(const char *s1, char *s2, size_t n);
 void	ft_bzero(void *s, size_t n);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 int		ft_atoi(const char *nptr);
+float	ft_atof(const char *str);
 void	*ft_memcpy(void *to, const void *from, size_t numBytes);
 void	*ft_memmove(void *dest_str, const void *src_str, size_t numBytes);
 char	*ft_strchr(const char *s, int c);
